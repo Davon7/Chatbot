@@ -11,10 +11,10 @@ warnings.filterwarnings('ignore')
 lemmatizer = nltk.stem.WordNetLemmatizer()
 
 # # Download rquired NLTK data
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# nltk.download('wordnet')
-# nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('punkt_tab')
 
 data = pd.read_csv('Samsung Dialog.txt', sep = ':', header=None)
 
